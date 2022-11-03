@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Quicksand&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  }
+
+.App {
+  text-align: center;
+  background: linear-gradient(120deg, #4FA095 30%, #153462 60%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #153462;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #4FA095 ;
+  background: rgba( 255, 255, 255, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+ 
+.postBody {
+  width:40vw;
+  height:auto;
+  margin: 5vh auto;
+  padding:2%;
+  border-radius: 8px;
+  background: rgba( 255, 255, 255, 0.1 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.3 );
+}
+
+.postBody h2 {
+  font-size: 2rem;
+}
+
+.postBody p {
+  font-size: 1.25rem;
+}
+
+.gradientText {
+  background: linear-gradient(
+    to right, 
+    #20BF55
+,
+#01BAEF
+
+  );
+  font-size: 2.25rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3%;
+}
+
+
+@media( max-width:1400px)
+{
+  .postBody {
+    width:60vw;
+  }
+  
+}
+
+@media( max-width:900px)
+{
+  .postBody {
+    width:80vw;
+  }
+  
+}
+
+
+@media( max-width:600px)
+{
+  .postBody {
+    width:90vw;
+  }
+  
+}
